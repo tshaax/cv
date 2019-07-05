@@ -156,6 +156,7 @@ h3 {
   width: 100%;
   stroke: #000;
   cursor: pointer;
+  border-radius: 100%;
 }
 .logo .logo-text {
   display: false;
