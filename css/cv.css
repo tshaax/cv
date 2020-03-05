@@ -309,3 +309,9 @@ a:hover {
     line-height: 48px;
   }
 }
+
+@media (max-width: 1024px) {
+      .page{
+        margin: 0 auto;
+      }
+}
