@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  transition: 0.35s ease;
+  transition: 0.3s ease;
 }
 a {
   text-decoration: none;
@@ -35,8 +35,8 @@ a {
   width: 88%;
 }
 body {
-  font-family: 'Open Sans';
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   letter-spacing: 0px;
   font-weight: 400;
   line-height: 28px;
@@ -170,22 +170,18 @@ h3 {
   line-height: 58.333333333333336px;
 }
 .social {
-  padding-left: 60px;
-  margin-bottom: 20px;
+  padding-left: 40px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
 .social:before {
   content: '';
-  display: false;
   position: absolute;
-  margin: false;
-  top: -4px;
+  top: 5px;
   left: 10px;
-  right: false;
-  bottom: false;
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
   background-size: cover !important;
 }
 .social.download:before {
@@ -197,7 +193,7 @@ h3 {
     center no-repeat;
 }
 .social.github:before {
-  background: url('https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-512.png')
+  background: url('https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-128.png')
     center no-repeat;
 }
 .social.linked-in:before {
@@ -251,7 +247,6 @@ h3 {
 .greyed {
   background-color: #ddd;
   width: 100%;
-  max-width: 580px;
   text-align: center;
   font-family: 'Open Sans';
   font-size: 18px;
@@ -259,6 +254,43 @@ h3 {
   font-weight: 600;
   line-height: 28px;
 }
+a {
+  color: #000;
+}
+a:hover {
+  color: #777;
+}
+.tech-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-ul li, .tech {
+  display: inline-block;
+  background: #ddd;
+  border-radius: 100px;
+  margin: 5px;
+  display: inline-block;
+  padding: 2px 15px;
+  font-size: 14px;
+}
+
+.project {
+  background: rgba(247, 224, 193, 0.56);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  margin: 5px 0;
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 14px;
+  color: #000;
+}
+.project:hover {
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid rgba(247, 224, 193, 0.56);
+}
+
 @media screen and (max-width: 1150px) {
   .name {
     color: #fff;
